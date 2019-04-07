@@ -51,3 +51,12 @@ a {
 	padding-top: 0;
 	padding-bottom: 12%;
 }
+.repair-4 {
+	background-image: url("../img/auto_costpaintcar_0415_passwater.jpg");
+	color: black;
+	background-position: 0.5% 25%;
+}
+.repair-5 {
+	background-image: url("../img/banner-collision-1.jpg");
+	background-position: 0.5% 25%;
+}
