@@ -11,16 +11,25 @@ h2 {
 	text-align: center;
 	padding-bottom: 2%;
 }
+h3 {
+	text-decoration: underline;
+}
 header {
 	display: flex;
 	background-color: ;
+}
+span {
+	color: white
+}
+.logo-img img {
+	width: 50%;
 
 }
 .logo-text h1 {
 	text-align: center;
 }
-.logo-img {
-	
+.logo-text p {
+	font-size: 120%;
 	
 }
 .logo-idea {
@@ -32,14 +41,42 @@ header {
 nav {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	list-style: none;
 	background-color: #000;
 	padding: 1%;
 
 }
+nav img {
+	background-color: white;
+	width: 40%;
+	border-radius: 15%;
+	
+}
+
+nav li:first-child a{
+	display: flex;
+	align-items: center;
+
+}
+span {
+	padding-left: 10%;
+}
 a {
 	text-decoration: none;
 	color: white;
+	font-size: 120%;
+}
+nav li {
+	padding: 0.5%;
+
+}
+nav li:hover {
+	background-color: white;
+	border-radius: 10%;
+}
+nav li:hover a {
+	color: black;
 }
 .main {
 	display: flex;
@@ -62,14 +99,15 @@ a {
 	background-image: url("../img/collision-banner-1.jpg");
 	color: black;
 	background-position: 1%;
+	padding-bottom: 12%;
+	text-align: right;
 }
 .repair-3 {
 	background-image: url("../img/martin-auto-color-1.jpg");
 	text-align: right;
-	background-position: 1%;
+	background-position: 1% 1%;
 	color: black;
-	padding-top: 0;
-	padding-bottom: 12%;
+	padding-top: 12%;
 }
 .repair-4 {
 	background-image: url("../img/auto_costpaintcar_0415_passwater.jpg");
@@ -79,4 +117,26 @@ a {
 .repair-5 {
 	background-image: url("../img/banner-collision-1.jpg");
 	background-position: 0.5% 25%;
+}
+.repair-6 {
+	background-image: url("../img/MIX1.jpg");
+	color: black;
+	background-position: 0.5% 10%;
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	padding: 0.5%;
+}
+footer p {
+	font-size: 110%;
+	color: white;
+	
+}
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
